@@ -36,7 +36,7 @@ a:focus,
 }
 a:focus,
 a:hover {
-  color: #8fb569;
+  color: $seconderyMain;
   text-decoration: none;
 }
 .nav-link:focus,
@@ -207,7 +207,6 @@ label {
   opacity: 0.6;
 }
 .btn-icon {
-  border-radius: 30px;
   padding-left: 84px;
   padding-right: 50px;
   padding-top: 24px;
@@ -291,7 +290,7 @@ label {
 .primary_btn.green-bg-btn {
   padding: 23px 60px;
   border-radius: 30px;
-  background: #8fb569;
+  background: $seconderyMain;
   color: #fff;
 }
 .btn.green-bg-btn:hover {
@@ -363,5 +362,5 @@ label {
   line-height: 48px;
 }
 #scrollUp:hover {
-  background: #8fb569;
+  background: $seconderyMain;
 }

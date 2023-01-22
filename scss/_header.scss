@@ -48,6 +48,7 @@
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  padding: 0 20px;
 }
 .sticky_menu.sticky_navBar_bg {
   background: #223645;
@@ -149,6 +150,24 @@
   opacity: 1;
   visibility: visible;
   top: 96%;
+}
+.header__menu ul li:hover ul li ul.levl-2 {
+  position: absolute;
+  background: #ffffff;
+  width: 250px;
+  top: 0%;
+  left: 100%;
+  opacity: 0;
+  visibility: hidden;
+  padding: 25px 0;
+  transition: all 0.3s ease-out 0s;
+  border-top: 5px solid #3c2c9c;
+  box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
+  z-index: 99;
+}
+.header__menu ul li:hover ul li:hover ul.levl-2 {
+  visibility: visible;
+  opacity: 1;
 }
 .header__menu ul li ul.submenu li:hover > a {
   color: #223645;

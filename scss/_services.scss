@@ -1,4 +1,7 @@
 /* 6. Services */
+.service-thumb img {
+  width: 30%;
+}
 .service-thumb {
   margin-bottom: 45px;
 }
@@ -96,6 +99,9 @@
   background: $primaryMain;
   color: #fff;
 }
+.service-content h3 {
+  font-size: 25px;
+}
 .service-content-2 a.service-link {
   color: #9ca8b6;
 }
@@ -106,10 +112,10 @@
   margin-right: 5px;
 }
 .service-box .service-content h3 a:hover {
-  color: #8fb569;
+  color: $seconderyMain;
 }
 .service-box .service-link:hover {
-  color: #8fb569;
+  color: $seconderyMain;
 }
 .service-box:hover {
   background-color: rgb(255, 255, 255);
@@ -148,7 +154,7 @@
   margin-bottom: 12px;
 }
 .ser-fea-list ul li i {
-  color: #8fb569;
+  color: $seconderyMain;
   margin-right: 5px;
 }
 .download-area a img {
@@ -246,7 +252,7 @@
   font-family: "Font Awesome 5 Free";
   display: inline-block;
   font-size: 14px;
-  color: #8fb569;
+  color: $seconderyMain;
   top: 20px;
   left: 30px;
   z-index: 99;

@@ -147,7 +147,7 @@
   border: 0;
   font-size: 18px;
   color: #fff;
-  background: #8fb569;
+  background: $seconderyMain;
   height: 50px;
   width: 50px;
   border-radius: 5px;
@@ -186,7 +186,7 @@
   transition: 0.4s;
 }
 .h4service-active .slick-dots li.slick-active button {
-  background: #8fb569;
+  background: $seconderyMain;
 }
 .h4_photogallery .slick-dots li.slick-active button {
   background: #ffc600;
@@ -214,7 +214,7 @@
   transition: 0.4s;
 }
 .team-box:hover .h4team-thumb > img {
-  border-color: #8fb569;
+  border-color: $seconderyMain;
 }
 .h4team-social ul li a:hover {
   color: $primaryMain;
@@ -534,7 +534,7 @@
   position: absolute;
   left: 0;
   font-size: 22px;
-  color: #8fb569;
+  color: $seconderyMain;
   overflow: hidden;
   top: 4px;
 }
@@ -550,7 +550,7 @@
   display: block;
 }
 .h4events-list ul li > span.close-days {
-  color: #8fb569;
+  color: $seconderyMain;
 }
 .h4footer-social ul li a {
   height: 40px;
