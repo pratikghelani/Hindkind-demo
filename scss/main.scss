@@ -1,3 +1,4 @@
+@import "themes-vars.module.scss";
 /*
 
   Theme Name: MediDove - Medical and Health HTML5 Template
@@ -7,7 +8,6 @@
   Version: 1.0
 
 */
-
 
 /* CSS Index
 
@@ -68,47 +68,22 @@
 */
 
 // @import 'variables';
-@import 'common';
-@import 'default';
-@import 'header';
-@import 'hero';
-@import 'slider';
-@import 'about';
-@import 'sectionTitle';
-@import 'services';
-@import 'fact';
-@import 'pricing';
-@import 'faq';
-@import 'cta';
-@import 'blog';
-@import 'breadcrumb';
-@import 'counter';
-@import 'testimonial';
-@import 'appoinment';
-@import 'analysis';
-@import 'calculate';
-@import 'hiring';
-@import 'widget';
-@import 'features';
-@import 'news_letter';
-@import 'membership';
-@import 'contact';
-@import 'shop';
-@import 'cart';
-@import 'checkout';
-@import 'login';
-@import 'gallery';
-@import 'team';
-@import 'preloader';
-@import 'update_css';
-@import 'home_five';
-@import 'routing';
-@import 'tab';
-@import 'footer';
-@import 'responsive';
-
-
-
-
-
-
+@import "common";
+@import "default";
+@import "header";
+@import "hero";
+@import "slider";
+@import "about";
+@import "sectionTitle";
+@import "services";
+@import "breadcrumb";
+@import "counter";
+@import "fact";
+@import "pricing";
+@import "features";
+@import "contact";
+@import "shop";
+@import "preloader";
+@import "update_css";
+@import "footer";
+@import "responsive";
