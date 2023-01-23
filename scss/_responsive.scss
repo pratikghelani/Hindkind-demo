@@ -56,7 +56,7 @@
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
   .slider-height {
-    min-height: 700px;
+    min-height: 550px;
   }
   .header-padding {
     padding: 0 0;
@@ -425,7 +425,7 @@
     margin-right: 30px;
   }
   .slider-height {
-    min-height: 620px;
+    min-height: 420px;
     background-position: center;
   }
   .main-menu ul li:last-child {
@@ -788,7 +788,7 @@
     padding: 25px 0 25px;
   }
   .slider-height {
-    min-height: 590px;
+    min-height: 205px;
     background-position: center;
   }
   .hero-slider-caption {
@@ -1286,6 +1286,9 @@
     z-index: 1;
     right: 0;
     text-align: center;
+  }
+  .about-title h1.font-size-50 {
+    font-size: 28px;
   }
   .about-title h1 {
     font-size: 28px;
