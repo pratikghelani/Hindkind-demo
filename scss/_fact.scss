@@ -16,7 +16,7 @@
 .single-satisfied h1 {
   color: #877fc2;
   float: left;
-  width: 140px;
+  width: 200px;
   margin-right: 20px;
 }
 .single-satisfied h5 {
@@ -26,9 +26,17 @@
 .single-satisfied h5 i {
   margin-right: 5px;
 }
+
+.font-size-50 {
+  font-size: 50px;
+}
+.font-size-40 {
+  font-size: 40px;
+}
 .single-satisfied p {
   color: #899dab;
 }
+
 .single-satisfied h5,
 .single-satisfied p {
   width: calc(100% - 160px);

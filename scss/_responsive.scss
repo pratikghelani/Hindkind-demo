@@ -1,7 +1,7 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
   .slider-height {
-    min-height: 700px;
+    min-height: 755px;
   }
   .btn.btn-icon.btn-icon-white {
     display: none;
@@ -788,8 +788,9 @@
     padding: 25px 0 25px;
   }
   .slider-height {
-    min-height: 205px;
-    background-position: center;
+    min-height: 400px;
+    // background-position: center;
+    background-size: contain;
   }
   .hero-slider-caption {
     margin-bottom: 30px;
@@ -1348,6 +1349,7 @@
   }
 }
 /* Large Mobile :480px. */
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .primary_btn.gray-btn-border {
     padding: 23px 60px;

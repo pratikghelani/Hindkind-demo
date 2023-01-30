@@ -121,6 +121,9 @@
   opacity: 1;
   visibility: visible;
 }
+.w-60 {
+  width: 80% !important;
+}
 .slider-active button:hover {
   background: $primaryMain;
   color: #fff;
@@ -154,27 +157,6 @@
   content: "" !important;
 }
 
-// home two hero
-.hero_two_slider .single-slider {
-  background: url(../img/slider/slider-bg-2.jpg);
-  background-repeat: no-repeat;
-}
-.single-slider.home_three {
-  background: url(../img/slider/slider-bg-3.jpg);
-  background-position: center top;
-}
-.brand-area {
-  background: url(../img/slider/slider-bg-1.jpg);
-  background-repeat: no-repeat;
-}
-.h4slider-bg {
-  // background: url(../img/bg/home4__hero__bg.jpg);
-  background-repeat: no-repeat;
-}
-.h5slider_bg {
-  // background: url(../img/bg/home5__hero__bg.jpg);
-  background-repeat: no-repeat;
-}
 .single-brand img {
   display: inline-block;
 }
