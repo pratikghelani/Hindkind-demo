@@ -370,7 +370,6 @@
   .logo.logo-3 img {
     max-width: 100%;
   }
-
   .header-cta-info {
     margin-right: 16px;
   }
@@ -663,6 +662,9 @@
   }
   .h3_topBar {
     padding-top: 15px;
+  }
+  .responsive_div {
+    flex-direction: column-reverse;
   }
   .h3_topBar .sticky_menu {
     padding: 15px;
