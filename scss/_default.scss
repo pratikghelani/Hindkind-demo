@@ -958,3 +958,7 @@
 .list-inline li {
   display: inline-block;
 }
+.section-line {
+  filter: invert(17%) sepia(34%) saturate(6957%) hue-rotate(237deg)
+    brightness(64%) contrast(138%);
+}
