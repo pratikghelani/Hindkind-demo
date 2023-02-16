@@ -44,10 +44,15 @@
   color: #91a1b4;
   padding-right: 20px;
 }
+.footer-emailing ul li a {
+  color: #647589;
+  &:hover {
+    opacity: 0.5;
+  }
+}
 .footer-emailing ul li {
   font-size: 18px;
   color: #647589;
-  margin-bottom: 12px;
 }
 .footer-contact-info-3 .footer-emailing ul li {
   color: #91a1b4;
