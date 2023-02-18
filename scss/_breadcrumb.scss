@@ -1,6 +1,11 @@
 /* page-title */
 .page_header_bg {
-  background: url(../img/page/page-bg.jpg);
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url(../img/shape/page-bg.jpg);
   background-repeat: no-repeat;
 }
 .breadcrumb-bg {
