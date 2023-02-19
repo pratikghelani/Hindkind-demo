@@ -17,6 +17,8 @@
 
 .about-title h5 {
   margin-bottom: 27px;
+  line-height: 20px;
+  text-align: justify;
 }
 
 .about-title h3 {
@@ -75,9 +77,10 @@
   background: #df2855;
   color: #fff;
 }
-.about-text p {
-  padding-right: 46px;
-}
+// .about-text,
+// .about-title {
+//   padding-right: 46px;
+// }
 .mv-text p {
   font-size: 20px;
   color: #223645;
