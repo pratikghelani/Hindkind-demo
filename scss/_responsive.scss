@@ -6,7 +6,10 @@
 }
 @media (min-width: 1200px) and (max-width: 1500px) {
   .slider-height {
-    min-height: calc(100vh - 150px);
+    height: calc(100vh - 140px);
+    min-height: 700px;
+    object-fit: contain;
+    background-size: cover;
   }
   .btn.btn-icon.btn-icon-white {
     display: none;
