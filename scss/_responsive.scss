@@ -1376,7 +1376,12 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .about-area {
     padding-top: 50px;
+  }
+  .home-about .row {
     flex-direction: column-reverse;
+  }
+  .about-text p {
+    text-align: inherit;
   }
   .error-404-title {
     font-size: 70px;
